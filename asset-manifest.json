@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/medi-connect/static/css/main.7d91a5b5.css",
+    "main.js": "/medi-connect/static/js/main.78f61ea2.js",
+    "index.html": "/medi-connect/index.html",
+    "main.7d91a5b5.css.map": "/medi-connect/static/css/main.7d91a5b5.css.map",
+    "main.78f61ea2.js.map": "/medi-connect/static/js/main.78f61ea2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d91a5b5.css",
+    "static/js/main.78f61ea2.js"
+  ]
+}
