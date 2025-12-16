@@ -1,0 +1,102 @@
+.dashboard-container {
+  min-height: 100vh;
+}
+
+.dashboard-nav {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dashboard-logo {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.nav-link {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.dashboard-content {
+  padding: 30px;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.no-data {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 40px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.status.pending {
+  background: rgba(255, 193, 7, 0.3);
+  color: #ffc107;
+}
+
+.status.confirmed {
+  background: rgba(40, 167, 69, 0.3);
+  color: #28a745;
+}
+
+.status.completed {
+  background: rgba(0, 123, 255, 0.3);
+  color: #007bff;
+}
+
+.status.cancelled {
+  background: rgba(220, 53, 69, 0.3);
+  color: #dc3545;
+}
+
+

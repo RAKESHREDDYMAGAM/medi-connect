@@ -1,0 +1,36 @@
+.medical-history h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.history-section {
+  margin-bottom: 40px;
+}
+
+.history-section h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.history-list {
+  display: grid;
+  gap: 15px;
+}
+
+.history-item {
+  padding: 15px;
+}
+
+.history-item p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+

@@ -1,0 +1,73 @@
+.my-appointments h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.appointment-filters {
+  margin-bottom: 20px;
+}
+
+.appointment-filters input,
+.appointment-filters select {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.15) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+}
+
+.appointment-filters input::placeholder {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.appointment-filters select option {
+  background: rgba(102, 126, 234, 0.95) !important;
+  color: #ffffff !important;
+  padding: 10px;
+}
+
+.results-count {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.appointments-list {
+  display: grid;
+  gap: 20px;
+}
+
+.appointment-card {
+  padding: 20px;
+}
+
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.appointment-header h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.appointment-card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.appointment-card .specialization {
+  color: rgba(255, 255, 255, 0.95) !important;
+  font-weight: 500;
+}
+

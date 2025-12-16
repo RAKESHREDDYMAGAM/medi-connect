@@ -1,0 +1,64 @@
+.manage-orders h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.orders-list {
+  display: grid;
+  gap: 20px;
+}
+
+.order-card {
+  padding: 20px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.order-header h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.order-card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+.order-items {
+  margin: 15px 0;
+}
+
+.order-items ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.order-items li {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+}
+
+.order-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.order-actions a {
+  color: white;
+  text-decoration: underline;
+}
+
+

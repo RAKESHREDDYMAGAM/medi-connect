@@ -1,0 +1,84 @@
+.manage-users h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+}
+
+.users-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.users-list {
+  display: grid;
+  gap: 20px;
+}
+
+.user-card {
+  padding: 20px;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.user-header h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.role {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.role.patient {
+  background: rgba(0, 123, 255, 0.3);
+  color: #007bff;
+}
+
+.role.doctor {
+  background: rgba(40, 167, 69, 0.3);
+  color: #28a745;
+}
+
+.role.pharmacist {
+  background: rgba(255, 193, 7, 0.3);
+  color: #ffc107;
+}
+
+.role.admin {
+  background: rgba(220, 53, 69, 0.3);
+  color: #dc3545;
+}
+
+.user-card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+.user-actions {
+  margin-top: 15px;
+}
+
+.glass-button.deactivate {
+  background: rgba(220, 53, 69, 0.3);
+}
+
+.glass-button.activate {
+  background: rgba(40, 167, 69, 0.3);
+}
+
+

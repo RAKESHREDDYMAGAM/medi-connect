@@ -1,0 +1,13 @@
+.doctor-profile h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.doctor-profile form {
+  padding: 30px;
+}
+
+

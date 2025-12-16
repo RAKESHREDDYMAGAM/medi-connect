@@ -1,0 +1,38 @@
+.manage-appointments h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.appointments-list {
+  display: grid;
+  gap: 20px;
+}
+
+.appointment-card {
+  padding: 20px;
+}
+
+.appointment-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.appointment-header h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: white;
+}
+
+.appointment-card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 8px;
+}
+
+

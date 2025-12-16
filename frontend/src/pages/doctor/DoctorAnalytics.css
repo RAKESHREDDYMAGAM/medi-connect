@@ -1,0 +1,26 @@
+.doctor-analytics h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.chart-section {
+  padding: 30px;
+}
+
+.chart-section h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+

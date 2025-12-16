@@ -1,0 +1,134 @@
+.pharmacy-order h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 30px;
+}
+
+.results-count {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  margin-bottom: 15px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.no-results {
+  padding: 40px;
+  text-align: center;
+}
+
+.no-results p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  font-size: 16px !important;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.pharmacy-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+
+.medicines-section {
+  min-height: 400px;
+}
+
+.medicines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.medicine-card {
+  padding: 15px;
+  text-align: center;
+}
+
+.medicine-card h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.medicine-card p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  font-size: 15px !important;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.cart-section {
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+  height: fit-content;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.cart-section h3 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.cart-item {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+}
+
+.cart-item p {
+  font-family: 'Josefin Sans', sans-serif;
+  color: #ffffff !important;
+  font-size: 15px !important;
+  margin-bottom: 5px;
+  font-weight: 400;
+}
+
+.cart-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cart-controls button {
+  background: rgba(255, 255, 255, 0.2);
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.cart-total {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 20px 0;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.prescription-upload {
+  margin: 20px 0;
+}
+
+.prescription-upload input[type="file"] {
+  margin-bottom: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+}
+
