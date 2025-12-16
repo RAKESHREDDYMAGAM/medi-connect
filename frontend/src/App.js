@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { AuthProvider } from './context/AuthContext';
@@ -17,12 +17,9 @@ import PharmacyDashboard from './pages/PharmacyDashboard';
 import Home from './pages/Home';
 
 function App() {
-  // Get basename from environment or use default for GitHub Pages
-  const basename = process.env.PUBLIC_URL || '/medi-connect';
-  
   return (
     <AuthProvider>
-      <Router basename={basename}>
+      <Router>
         <div className="App">
           <Routes>
             <Route path="/" element={<Home />} />
