@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/medi-connect/static/css/main.7d91a5b5.css",
-    "main.js": "/medi-connect/static/js/main.78f61ea2.js",
+    "main.js": "/medi-connect/static/js/main.ed4ae7cb.js",
     "index.html": "/medi-connect/index.html",
     "main.7d91a5b5.css.map": "/medi-connect/static/css/main.7d91a5b5.css.map",
-    "main.78f61ea2.js.map": "/medi-connect/static/js/main.78f61ea2.js.map"
+    "main.ed4ae7cb.js.map": "/medi-connect/static/js/main.ed4ae7cb.js.map"
   },
   "entrypoints": [
     "static/css/main.7d91a5b5.css",
-    "static/js/main.78f61ea2.js"
+    "static/js/main.ed4ae7cb.js"
   ]
 }
